@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: right;
+    text-decoration: rtl;
+    font-family: 'Arial (Hebrew)', Arial;
+
+}
+header{
+    width: 900px;
+    height: 105px;
+    margin: 0 auto;
+    background: rgb(144,144,144);
+    background: linear-gradient(180deg, rgba(144,144,144,1) 42%, rgba(147,147,144,1) 88%, rgba(167,167,167,1) 92%);
+
+}
+
+.row{
+    display: flex;
+    border: solid;
+}
+.row-line-1{
+    display: flex;
+    border: solid;
+    align-items: center;
+}
+.search-line{
+    width: 126px;
+    height: 19px;
+    padding: 0;
+    border: 0 none;   
+    text-align: right;
+    border-top-right-radius: 10px;
+}
+
+
+.img-container-search{
+    width: 19px;
+    height: 19px;
+    font-size: 12px;
+}
+.english-link{
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.english-link:hover{
+    color: #005CA0;
+    text-decoration: underline;
+}
+
