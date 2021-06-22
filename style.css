@@ -153,7 +153,7 @@ div > a {
     direction: rtl;
 }
 .col-main-1{
-    /* border: solid; */
+     /* border: solid;  */
     margin-left: 10px;
     
     
@@ -238,3 +238,70 @@ div > a {
     display: inline;
 }
 
+/* row 2 main */
+
+.h3-row2{
+    font-size: 14px;
+    color: #575757;
+    
+}
+
+.col1-main-content-2{
+    border: solid;
+    height: 216px;
+    width: 292px;
+    margin-top: 18px;
+    padding: 0px 24px 0px 24px;
+    /* background-color: #EEEEEE;  */
+    background: url(/img/small_cube_bg.png); 
+}
+.col1-main-content-3{
+    border: solid;
+    height: 216px;
+    width: 292px;
+    margin-top: 18px;
+    position: relative; 
+    /* background-color: #EEEEEE;  */
+    background: url(/img/small_cube_bg.png); 
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.map-img-container{
+    position: absolute;
+    left: 33px;
+    top: 37px;
+    width: 73px;
+    height: 168px;
+}
+.map-img-container > img{
+    width: 100%;
+}
+.more-info{
+    text-align: left;
+    border: solid;
+    width: 250px;
+    font-size: 13px;
+    font-weight: normal;
+    
+}
+.more-info > a > span{
+    text-decoration: underline;
+    color: #575757;  
+}
+
+.more-info > a > span:hover {
+    color:#005CA0;
+    
+}
+.isr-zone {
+    font-size: 13px;
+    font-weight: normal;
+}
+.isr-zone > a > span {
+    text-decoration: underline;
+    color: #575757;
+}
+.isr-zone > a > span:hover{
+    color:#005CA0;
+
+}
