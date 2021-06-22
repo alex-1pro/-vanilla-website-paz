@@ -6,7 +6,12 @@ body{
     text-decoration: rtl;
     font-family: 'Arial (Hebrew)', Arial;
     font-weight: bold;
+    margin: 0;
 
+}
+.container-header{
+    background: rgb(144,144,144);
+    background: linear-gradient(180deg, rgba(144,144,144,1) 42%, rgba(147,147,144,1) 88%, rgba(167,167,167,1) 92%);
 }
 header{
     width: 900px;
@@ -14,12 +19,16 @@ header{
     margin: 0 auto;
     background: rgb(144,144,144);
     background: linear-gradient(180deg, rgba(144,144,144,1) 42%, rgba(147,147,144,1) 88%, rgba(167,167,167,1) 92%);
+   
 
 }
+
 
 .row{
     display: flex;
     border: solid;
+    position: relative;
+    
 }
 .row-line-1{
     display: flex;
@@ -57,7 +66,7 @@ header{
 ul{
     display: flex;
     list-style: none;
-    padding: 10px;
+    /* padding: 10px; */
     direction: rtl;
 }
  /* li{
@@ -119,3 +128,15 @@ div > a {
     color:#005CA0 ;
     text-decoration: underline;
  }
+ /* logo */
+ .img-logo-container{
+     position:absolute;
+     border: solid;     
+     right: 0;
+     width: 160px;
+ }
+ img[alt="paz_logo"]{
+  width: 142px;
+  margin-left: 18px;  
+ }
+
