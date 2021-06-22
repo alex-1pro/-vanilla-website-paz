@@ -140,3 +140,30 @@ div > a {
   margin-left: 18px;  
  }
 
+ main{
+     width: 900px;
+     height: 589px;
+     margin: 0 auto;
+     margin-top: 30px;
+
+}
+.row-main-1{
+    display: flex;    
+    border: solid;
+}
+.col-main-3{
+    /* border: solid; */
+    margin-left: 10px;
+    
+}
+.col-main-2{
+    max-width: 0px 10px 0px 10px;
+}
+.col-main-1{
+    margin-right: 10px;
+}
+.img-main-row-1{
+    border-bottom-right-radius: 8%;
+}
+
+
