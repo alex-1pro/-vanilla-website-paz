@@ -139,7 +139,7 @@ div > a {
   width: 142px;
   margin-left: 18px;  
  }
-
+/* main section */
  main{
      width: 900px;
      height: 589px;
@@ -150,20 +150,91 @@ div > a {
 .row-main-1{
     display: flex;    
     border: solid;
+    direction: rtl;
 }
-.col-main-3{
+.col-main-1{
     /* border: solid; */
     margin-left: 10px;
+    
     
 }
 .col-main-2{
     max-width: 0px 10px 0px 10px;
 }
-.col-main-1{
+.col-main-3{
     margin-right: 10px;
+   
+}
+.img-container-tab{
+    border: solid;
+    position: relative;
+    width: 293px; 
 }
 .img-main-row-1{
-    border-bottom-right-radius: 8%;
+    border-bottom-right-radius: 15px;
+    display: block;
+    width: 293px;
+    height: 355px;
+
+}
+.content-on-img-row-1{
+    width: 248px;
+    height: 97px;
+    padding: 10px;
+    
+    /* border: solid; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom-right-radius: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: #767676;
+    opacity: 0.8;
+
+}
+.content-on-img-row-1 > h3{
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.content-on-img-row-1 > p{
+    margin: 0;
+    font-size:13px;
+    color: white;
+    font-weight:normal;
+}
+.content-on-img-row-1 > a{
+    font-size: 13px;
+    font-weight: normal;
+    
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+    text-decoration: underline; 
+    color: white;
+    
 }
 
+
+.content-on-img-row-1 > a > span:hover {
+    color:#005CA0;
+    text-decoration: underline;
+    /* display: inline; */
+}
+.read_more{
+    position: relative;
+    display: inline-block;
+}
+.read_more .img-top{
+    display: none;
+    position: absolute; 
+    bottom: 3px;
+    /* left: 0; */
+    /* z-index: 99; */
+}
+.read_more:hover .img-top{
+    display: inline;
+}
 
