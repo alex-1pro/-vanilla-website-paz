@@ -27,13 +27,12 @@ header{
 
 .row-line-2{
     display: flex;
-    border: solid;
+    
     position: relative;
     
 }
 .row-line-1{
     display: flex;
-    border: solid;
     align-items: center;
 }
 .search-line{
@@ -108,11 +107,13 @@ div > a {
     position:absolute;
     width: max-content;
     z-index: 1;
-    
      padding-top: 25px; 
 
     
 }
+.dropdown-content > a{
+    border-bottom: solid #BCBCBC 1px;
+} 
 .dropdown:hover > .dropdown-content {
     display: block; 
   }
@@ -126,6 +127,9 @@ div > a {
     width: 100%;
     
  } 
+header> div > nav{
+    padding-top: 38px;
+ }
  nav > ul > li > a:hover{
     color:#005CA0 ;
     text-decoration: underline;
@@ -133,9 +137,9 @@ div > a {
  /* logo */
  .img-logo-container{
      position:absolute;
-     border: solid;     
      right: 0;
      width: 160px;
+     padding-top: 11px;
  }
  img[alt="paz_logo"]{
   width: 142px;
@@ -153,11 +157,9 @@ div > a {
 }
 .row-main-1{
     display: flex;    
-    border: solid;
     direction: rtl;
 }
 .col-main-1{
-     /* border: solid;  */
     margin-left: 10px;
     
     
@@ -170,7 +172,6 @@ div > a {
    
 }
 .img-container-tab{
-    border: solid;
     position: relative;
     width: 293px; 
 }
@@ -186,7 +187,6 @@ div > a {
     height: 97px;
     padding: 10px;
     
-    /* border: solid; */
     position: absolute;
     bottom: 0;
     right: 0;
@@ -218,15 +218,22 @@ div > a {
     left: 10px;
     text-decoration: underline; 
     color: white;
+    background: url(img/read_more_white.png)no-repeat;
+
     
 }
 
 
-.content-on-img-row-1 > a > span:hover {
+.content-on-img-row-1 > a:hover {
     color:#005CA0;
     text-decoration: underline;
     /* display: inline; */
+    background: url(img/read_more_blue.png)no-repeat;
 }
+.content-on-img-row-1 > a >span{
+    padding-left: 10px;
+}
+
 .read_more{
     position: relative;
     display: inline-block;
@@ -251,16 +258,13 @@ div > a {
 }
 
 .col1-main-content-2{
-    border: solid;
     height: 216px;
     width: 292px;
     margin-top: 18px;
     padding: 0px 24px 0px 24px;
-    /* background-color: #EEEEEE;  */
     background-image: url(img/small_cube_bg.png); 
 }
 .col1-main-content-3{
-    border: solid;
     height: 216px;
     width: 292px;
     margin-top: 18px;
@@ -282,33 +286,56 @@ div > a {
 }
 .more-info{
     text-align: left;
-    border: solid;
     width: 250px;
     font-size: 13px;
     font-weight: normal;
     
 }
-.more-info > a > span{
+.more-info > a {
     text-decoration: underline;
-    color: #575757;  
+    color: #575757;
+    display: inline-block;
+    background: url(img/read_more_yellow.png)no-repeat ;  
+
 }
 
-.more-info > a > span:hover {
+.more-info > a :hover {
+    text-decoration: underline;
+
     color:#005CA0;
-    
+    display: inline-block;
+    background: url(img/read_more_blue.png)no-repeat ;
+
+}
+.more-info  > a > span {
+    padding-left: 10px;
 }
 .isr-zone {
     font-size: 13px;
     font-weight: normal;
+    margin-top: 5px;
 }
-.isr-zone > a > span {
+.isr-zone > a  {
     text-decoration: underline;
     color: #575757;
+    display: inline-block;
+    background: url(img/read_more_yellow.png)no-repeat ; 
 }
-.isr-zone > a > span:hover{
+
+.isr-zone > a:hover{
+    display: inline-block;
+    background: url(img/read_more_blue.png)no-repeat ;
     color:#005CA0;
 
 }
+.isr-zone > a > span {
+    padding-left: 20px;
+}
+/* 
+.isr-zone > a > span:hover{
+    color:#005CA0;
+
+} */
 .footer-menu{
     width: 900px;
     height: 38px;
@@ -379,6 +406,7 @@ div > .contact-side-menu > ul > li {
     /* color: #5c5c5c; */
     font-size: 13px;
     line-height: 32px;
+    background-image: url(img/side_menu_bg.png);
 }
 .contact-side-menu > ul > li > a{
    
@@ -392,8 +420,13 @@ div > .contact-side-menu > ul > li {
     margin-bottom: 4px;
     color: #5c5c5c;
     line-height: 32px;
-background-image: url(img/side_menu_bg.png);
+    
 }
+.contact-side-menu > ul > li > a:hover{
+    text-decoration: underline ;
+    color:#005ca0 ;
+}
+
 /* contact-col-form */
 .contact-col-form {
     float: right;
