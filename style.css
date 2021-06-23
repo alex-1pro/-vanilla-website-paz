@@ -522,3 +522,52 @@ form > button {
     background: linear-gradient(to bottom, #fce41e, #fcda19, #fbd115, #fac712, #f9be11, #f9b810, #f8b20f, #f7ac0f, #f7a70d, #f6a20c, #f69d0b, #f5980b) !important;
     color:black;
 }
+.contact-col-3{
+    /* border:solid; */
+    width: 292px;
+    height: 390px;
+    margin-top: 36px;
+
+}
+.contact-small-container{
+    width: 248px;
+    height: 142px;
+    padding: 18px 20px 15px;
+    border: solid ;
+    margin: auto auto;
+    background: rgb(236,236,236); 
+    background: linear-gradient(0deg, rgba(236,236,236,1) 29%, rgba(247,247,247,1) 88%, rgba(252,252,252,1) 92%); 
+    border-top-right-radius: 20px;
+    border: solid #cbcbcb;
+    margin-bottom: 53px;
+    margin-top: 10px;
+    
+}
+.contact-small-container > h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #005ca0;
+    margin-top: 0;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.contact-small-container > p{
+    margin-top: 0;
+    font-size: 13px;
+    color: #6d6d6d;
+    font-weight: normal;
+}
+.contact-small-container > p > a {
+    color: blue;
+}
+
+.contact-small-container > p > a:hover{
+    text-decoration: underline;
+    color: #005CA0 ;
+}
+/* .content{
+    border: solid;
+    width: 248px;
+    height: 71.182px;
+} */

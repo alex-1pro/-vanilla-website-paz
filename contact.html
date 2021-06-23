@@ -141,12 +141,13 @@
                             </div>
                             <div class="field">
                                 <label for="lname"> * שם משפחה</label>
-                                <input id="lname" type="text" minlength="3" value=" ">
+                                <input id="lname" type="text" minlength="3">
                                 <div class="error">שדה חובה</div>
                             </div>
                             <div class="field">
                                 <label for="telnumber"> * טלפון</label>
-                                <input id="telnumber" type="text" pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$">
+                                <input id="telnumber" type="text" pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"
+                                    minlength="10" maxlength="15">
                                 <div class="error">שדה חובה</div>
                             </div>
                             <div class="field">
@@ -164,14 +165,49 @@
                     </div>
 
                 </div>
-                <div class="contact-col-33">
-                    <div class="contact-content">
-                    </div>
+
+            </div>
+            <div class="contact-col-3">
+                <div class="contact-small-container">
+                    <h3>פרטי יצירת קשר</h3>
+                    <p>
+                       <strong> יורו פארק, בניין הולנד</strong>
+                      <br>                      
+                       קיבוץ יקום 60972
+                        <br>
+                       טל. שירות לקוחות 1-800-774-774
+                        <br>
+                       פקס.09-8641714
+                    </p>
+                </div>
+                <div class="contact-small-container">
+                    <h3>עוד בפז</h3>
+                    <p>
+                       <strong>ליצירת קשר עם דוברות פז</strong>
+                      <br>                      
+                        <a href="#">לחצו כאן>></a>
+                        <br>
+                        <strong>רוצים לעבוד בפז?</strong>
+                        <br>
+                        <a href="#">לחצו כאן>></a>
+                    </p>
                 </div>
             </div>
+        </div>
 
 
     </main>
+
+    <!--
+    <div class="content">
+        <h3>יורו פארק, בניין הולנד<h3>
+                <p>
+                    קיבוץ יקום 60972
+                    טל. שירות לקוחות 1-800-774-774
+                    פקס.09-8641714
+                </p>
+    </div> -->
+
 
     <footer>
         <div class="footer-menu">
@@ -190,7 +226,7 @@
                 <li class="sep-footer">|</li>
                 <li><a href="#">מפת אתר</a></li>
                 <li class="sep-footer">|</li>
-                <li><a href="#">צור קשר</a></li>
+                <li><a href="contact.html">צור קשר</a></li>
                 <li class="sep-footer">|</li>
                 <li><a href="#">שטחי מסחר</a></li>
                 <li class="sep-footer">|</li>
