@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>פז - צור קשר</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -132,15 +133,15 @@
                         </span>
                         <span class="contact-str">* השדות המסומנים בכוכבית (*) הינם שדות חובה</span>
 
-                        <form class="contact-form">
+                        <form id="contact-form">
                             <div class="field">
                                 <label for="fname"> * שם פרטי</label>
-                                <input id="fname" type="text">
+                                <input id="fname" type="text" minlength="3">
                                 <div class="error">שדה חובה</div>
                             </div>
                             <div class="field">
                                 <label for="lname"> * שם משפחה</label>
-                                <input id="lname" type="text">
+                                <input id="lname" type="text" minlength="3" value=" ">
                                 <div class="error">שדה חובה</div>
                             </div>
                             <div class="field">
@@ -175,7 +176,7 @@
     <footer>
         <div class="footer-menu">
             <ul class="footer-ul">
-                <li><a href="#"><img src="/img/fb_icon.png" alt="fb_icon"></a></li>
+                <li><a href="#"><img src="img/fb_icon.png" alt="fb_icon"></a></li>
                 <li class="sep-footer">|</li>
                 <li><a href="#">עמוד בית</a></li>
                 <li class="sep-footer">|</li>

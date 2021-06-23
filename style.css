@@ -456,7 +456,7 @@ background-image: url(img/side_menu_bg.png);
     font-weight: normal;
     /* width: 440px; */
 }
-.contact-form{
+#contact-form{
    /* border: solid; */
     width: 100%;
     margin-left: 24px;
@@ -478,21 +478,28 @@ form > div > input[type="text"] {
     width: 160px;
     padding: 3px;
     border: 1px solid #808992;
+    margin-bottom: 5px;
 }
 form > div > input[type="email"]{
     width: 160px;
     padding: 3px;
     border: 1px solid #808992;
+    margin-bottom: 5px;
 }
 
 .error{
-    display: inline-block;
+    /* display: inline-block; */
     width: 75px;
     font-size: 12px;
     font-weight: normal;
     margin-right: 30px;
     color: red;
+    display: none;
 }
+.was-submitted input:invalid ~ .error {
+    /* visibility: visible; */
+    display: initial;
+  }
 
 
 form > div > textarea{
