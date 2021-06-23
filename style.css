@@ -327,9 +327,13 @@ div > a {
     color: white;
 }
 img[alt="fb_icon"]{
-    
     position: absolute;
     right: 1px;
+}
+.footer-ul{
+    
+    padding-right: 20px;
+
 }
 .footer-ul > li > a:hover{
     color: #005CA0;
