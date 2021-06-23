@@ -257,7 +257,7 @@ div > a {
     margin-top: 18px;
     padding: 0px 24px 0px 24px;
     /* background-color: #EEEEEE;  */
-    background-image: url(/img/small_cube_bg.png); 
+    background-image: url(img/small_cube_bg.png); 
 }
 .col1-main-content-3{
     border: solid;
@@ -266,7 +266,7 @@ div > a {
     margin-top: 18px;
     position: relative; 
     /* background-color: #EEEEEE;  */
-    background-image: url(/img/small_cube_bg.png); 
+    background-image: url(img/small_cube_bg.png); 
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -360,6 +360,158 @@ img[alt="fb_icon"]{
 
 /* contact page  */
 
-.contact-side-menu > ul > li >a{
+main > .contact-row{
+    display: flex;
+    direction: rtl;
+    padding-right: 0;
+}
+
+.contact-row > .contact-col-1{
+    margin-left: 22px;
+}
+div > .contact-side-menu > ul > li {
+    /* background: rgb(211,211,211);
+    background: linear-gradient(360deg, rgba(211,211,211,1) 42%, rgba(232,232,224,1) 88%, rgba(253,253,253,1) 92%); */
+    
+    width: 122px;
+     height: 36px; 
+    /* background-image: url(img/side_menu_bg.png); */
+    /* color: #5c5c5c; */
+    font-size: 13px;
+    line-height: 32px;
+}
+.contact-side-menu > ul > li > a{
+   
+    display: block;
+    width: 122px;
+    height: 36px;
+    overflow: hidden;
+    padding-right: 12px;
+    font-weight: normal;
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: #5c5c5c;
+    line-height: 32px;
+background-image: url(img/side_menu_bg.png);
+}
+/* contact-col-form */
+.contact-col-form {
+    float: right;
+    margin-left: 24px;
+    color: #72716d;
+    font-size: 12px;
+    width: 440px;
+}
+.contact-link > span > a{
+    color: #72716d
+}
+.contact-link > span > a:hover {
+    text-decoration: underline;
     color: #005CA0;
+}
+.contact-content > h1{
+    
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid  #cbcbcb;
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+}
+.contact-form-container{
+    /* background-image: url(img/contact_form_bg.png);  */
+    border: solid #cbcbcb;
+    background: rgb(236,236,236); 
+    background: linear-gradient(0deg, rgba(236,236,236,1) 29%, rgba(247,247,247,1) 88%, rgba(252,252,252,1) 92%);
+    border-top-right-radius: 20px;
+    width: 383px;
+    padding-right: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    /* height: 293.067px; */
+    
+
+    /* background-image: url(img/contact_form_bg.png); */
+}
+.contact-form-container > h2{
+    color: #005ca0;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    margin-top: 10px;
+
+}
+.contact-insn{
+    display: block;
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 5px 0;
+}
+.contact-str{
+    margin-left: 24px;
+    color: #72716d;
+    font-size: 12px;
+    font-weight: normal;
+    /* width: 440px; */
+}
+.contact-form{
+   /* border: solid; */
+    width: 100%;
+    margin-left: 24px;
+    color: #72716d;
+    font-size: 12px;
+    padding: 10px 10px 20px 10px;
+
+}
+form > div > label {
+    color: #6d6d6d;
+    display: inline-block;
+    width: 75px;
+    font-size: 12px;
+    font-weight: normal;    
+    margin-right: 30px;
+}
+
+form > div > input[type="text"] {
+    width: 160px;
+    padding: 3px;
+    border: 1px solid #808992;
+}
+form > div > input[type="email"]{
+    width: 160px;
+    padding: 3px;
+    border: 1px solid #808992;
+}
+
+.error{
+    display: inline-block;
+    width: 75px;
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: 30px;
+    color: red;
+}
+
+
+form > div > textarea{
+    /* float: right; */
+    color: #6d6d6d;
+    width: 235px;
+    height: 100px;
+    padding: 3px;
+    border: 1px solid #808992;
+    margin-right: 32px;
+}
+form > button {
+   margin-right: 231px;
+   background: linear-gradient(to bottom, #0ca3e5, #0a9adb, #0891d2, #0688c8, #047fbe, #0479b7, #0372af, #026ca8, #0267a2, #02619b, #025c95, #02578f);
+   border: none;
+   border-top-right-radius: 3px;
+   color: white;
+}
+#btn:hover {
+    background: linear-gradient(to bottom, #fce41e, #fcda19, #fbd115, #fac712, #f9be11, #f9b810, #f8b20f, #f7ac0f, #f7a70d, #f6a20c, #f69d0b, #f5980b) !important;
+    color:black;
 }
